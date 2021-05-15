@@ -1,17 +1,17 @@
 # phphaste
 An open source PHP haste server created using Slim Framework
 
-# about
+### about
 phphaste is an open source php haste server based on the style of hastebin.
 The entirety of phphaste was built with php and using slim framework for apis
 and creating new hastes.
 
-# why?
+### why?
 phphaste was created because the developer benny was scrolling through his websites
 and noticed a crappy haste server he put together not long ago and decided to revamp
 it with slim framework and then he got stuck into developing it and now he cant leave!
 
-# how to install
+### how to install
 - Download this repository
 - Install 'composer' in your system (https://getcomposer.org/download/).
 - In your terminal, Change Directory to the folder which contains composer.json file
