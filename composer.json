@@ -1,0 +1,7 @@
+{
+    "require": {
+        "slim/slim": "^3.8",
+        "mongodb/mongodb": "^1.1",
+        "slim/php-view": "^3.1"
+    }
+}

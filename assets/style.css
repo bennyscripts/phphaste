@@ -1,0 +1,129 @@
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  color: #7f8d94;
+  background-color: #0e1418;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+textarea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: #CCC;
+  resize: none;
+  outline: none;
+  overflow: hidden;
+}
+
+textarea:focus {
+  border: none;
+}
+
+.hljs-meta {
+  color: #5a5a5a!important;
+}
+
+.hljs-keyword {
+  color: #fd79ff;
+}
+
+.hljs-section, .hljs-title {
+  color: #589CD3!important;
+}
+
+.hljs-attribute, .hljs-doctag, .hljs-keyword, .hljs-meta-keyword, .hljs-name, .hljs-selector-tag {
+  color: #B871CE!important;
+}
+
+.hljs-deletion, .hljs-number, .hljs-quote, .hljs-selector-class, .hljs-selector-id, .hljs-string, .hljs-template-tag, .hljs-type {
+  color: #ff6262!important;
+}
+
+.hljs-addition, .hljs-built_in, .hljs-bullet, .hljs-code {
+  color: #BE6069!important;
+}
+
+.hljs, .hljs-subst {
+  color: #CCC!important;
+}
+
+.hljs {
+  background-color: transparent!important;
+}
+
+.logo {
+  display: inline-block;
+  background: url("https://hastebin.com/logo.png");
+  width: 126px;
+  height: 42px;
+}
+
+.linenos {
+  color: #7d7d7d;
+  z-index: -1000;
+  position: fixed;
+  top: 0;
+  left: 20px;
+  width: 1px;
+  font-size: 87.5%;
+  font-family: monospace;
+  text-align: right;
+  margin-top: 19px;
+}
+
+input[type="submit"], button[type="submit"], .button {
+  border: none;
+  color: #95BFCA;
+  background-color: #203035;
+  padding: .5rem;
+  width: 100%;
+  display: inline-block;
+}
+
+input[type="submit"]:hover, button[type="submit"]:hover, .button:hover {
+  background-color: #314a51;
+}
+
+.top-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: +1000;
+}
+
+a {
+  color: inherit!important;
+  text-decoration: none!important;
+}
+
+.outer {
+  background: rgb(255,89,89);
+  background: linear-gradient(90deg, rgba(255,89,89,1) 0%, rgba(255,148,66,1) 15%, rgba(255,234,66,1) 30%, rgba(101,255,66,1) 45%, rgba(66,255,234,1) 60%, rgba(66,101,255,1) 75%, rgba(255,66,248,1) 90%);
+  padding-top: 5px;
+  z-index: 0;
+}
+
+.inner {
+  background-color: #1a242b;
+  font-size: 2rem;
+  z-index: 1;
+  padding: 10px;
+  color: white;
+  font-family: monospace;
+}
+
+.haste {
+  margin: 1em 10px;
+}
+
+pre {
+  padding: 10px;
+  word-break: break-word;
+  margin: 0;
+  margin-left: 35px!important;
+  margin-top: 6.8px!important;
+}
