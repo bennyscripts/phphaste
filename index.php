@@ -1,10 +1,5 @@
 <?php
 
-// This REST web API was developed by Federico Fabre
-// Argentina, September 2017.
-//
-// Check my work on https://federicofabre.com
-
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 use Slim\Views\PhpRenderer;
